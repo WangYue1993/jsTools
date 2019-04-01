@@ -1,3 +1,4 @@
+// how to create a chain of getter of object for url path
 class Path {
     constructor(path) {
         this.path = path
@@ -36,7 +37,6 @@ const chainSlashedPath = function (path) {
 > "/book/history"
  
 > // a path end with slash
-> 
 > chainSlashedPath(PATH.home)
 > "/home/"
 
